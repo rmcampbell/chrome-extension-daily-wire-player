@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "The Daily Wire Player",
+  "version": "2.0",
+  "description": "The Daily Wire Player",
+  "icons": {
+    "128": "icon128.png",
+    "250": "icon250.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "The Daily Wire Player",
+    "default_icon": "icon250.png"
+  }
+}
